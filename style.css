@@ -1,0 +1,862 @@
+/* main page */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+}
+
+.main-page{
+    background-color: white;
+}
+
+
+.header{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    border: 1px hidden black;
+    box-shadow: 0px 0px 4px 0px;
+    background-color: #e0e0e0 ;
+}
+
+.nav-bar{
+    position: sticky;
+    top: 0px;
+}
+
+/*nav bar styling*/
+
+.nav-bar ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    padding-top: 10px;
+    background-color: #EEEEEE;
+    font-size: 18px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+.nav-bar ul button{
+    width: 110px;
+    height: 40px;
+    border-radius: 20px;
+    border-style: hidden;
+    box-shadow: 0px 0px 3px 0px;
+}
+
+.nav-bar ul button:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 7px 0px red;
+    transition: 0.3s ease;
+}
+
+
+.nav-bar li a{
+    color: black;
+    border-bottom: 2px solid transparent;
+    transition:  0.3s ease; 
+}
+
+.nav-bar li a:hover{
+    border-bottom-color: black;
+}
+
+/*scroll image styling*/
+
+.scroll-image img{
+    width: 100%;               
+    object-fit: cover; 
+    margin-top: 20px;
+}
+
+/*life stage styling*/
+
+.life-stage-solution{
+    margin-top: 30px;
+}
+
+.life-stage-solution h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    color: red;
+}
+
+.life-stage-solution .icon-box {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.life-stage-solution .icon-box img{
+    border-radius: 15px;
+}
+
+.life-stage-solution .icon-box img:hover{
+    opacity: 0.6 ;
+}
+
+.life-stage-solution .box h6{
+    font-size: 15px;
+    color: black;
+}
+
+.life-stage-solution-body .box p{
+    font-size: 15px;
+}
+
+/*quick link styling*/
+
+.quick-link{
+    background-color: #E4E0E1;
+    padding-bottom: 35px;
+    margin-top: 30px;
+}
+
+.quick-link h2{
+    text-align: center;
+    padding-top: 35px;
+    font-size: 30px;
+    font-weight: 400;
+    color: red;
+}
+
+.quick-link .icon-box{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+
+.quick-link .icon-box h6{
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+}
+
+/*show case styling*/
+
+.showcase{
+    margin-top: 50px;
+    padding-bottom: 30px;
+}
+
+.showcase h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    color: red;
+}
+
+.showcase-box{
+    display: flex;
+    border: 1px hidden black;
+    width: 1200px;
+    height: 500px;
+    background-color: #EEEEEE;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+
+.showcase-box .left-side .p1{
+    font-size: 17px;
+    padding-left: 5px;
+}
+
+.showcase-box .left-side .p2{
+    padding-top: 70px;
+    font-style: 20px;
+    font-weight: 300;
+    padding-left: 5px;
+}
+
+.showcase-box .left-side .p3{
+    padding-left: 5px;
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+.showcase-box .right-side iframe{
+    width: 600px;
+    height: 300px;
+    margin-top: 180px;
+    margin-right: 20px;
+}
+
+/*Esg-Csr*/
+
+.Esg-Csr{
+    margin-top: 50px;
+    padding-bottom: 30px;
+}
+
+.Esg-Csr h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    color: red;
+}
+
+.Esg-box{
+    display: flex;
+    border: 1px hidden black;
+    width: 1200px;
+    height: 450px;
+    background-color: #EEEEEE;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+
+.Esg-box .left-side .p1{
+    font-size: 17px;
+    padding: 20px;
+}
+
+.Esg-box .left-side .p2{
+    font-size: 15px;
+    font-weight: 100;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+.Esg-box .left-side .click-btn{
+    margin-top:180px;
+    margin-left: 30px;
+    height: 40px;
+    width: 130px;
+    border-radius: 20px;
+    background-color: white;
+    border: 1px solid red;
+}
+
+.Esg-box .left-side .click-btn:hover{
+    box-shadow: 0px 3px 4px 0px ;
+}
+
+.Esg-box .left-side .click-btn a{
+    text-decoration: none;
+    color: red;
+}
+
+.Esg-box .right-side img{
+    width: 600px;
+    height: 300px;
+    margin-top: 130px;
+    margin-right: 20px;
+}
+
+
+/*important link styling*/
+
+.important-link{
+    margin-top: 20px;
+}
+
+.important-link h2{
+    text-align: center;
+    font-size: 27px;
+    font-weight: 400;
+    color: red;
+}
+
+.important-link .link-title ul{
+    margin-top: 20px;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+
+.important-link .link-content{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.important-link .link h4{
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.important-link .link-content p{
+    padding-top: 7px;
+    font-weight: 100;
+} 
+
+.important-link .link-content .link a{
+    color: black;
+}
+
+.important-link .link-content .link a:hover{
+    color: #F95454;
+    text-decoration: underline;
+}
+
+/*app link styling*/
+
+.app-link{
+    margin-top: 40px;
+    text-align: center;
+    background-color: #e0e0e0 ;
+    padding-top: 25px;
+    padding-bottom: px;
+}
+
+.app-link h2{
+    font-size: 25px;
+    font-weight: 400;
+    color: red;
+}
+
+.app-link img{
+    padding: 25px;
+}
+
+/*socail link styling*/
+
+.social-link{
+    background-color: #EEEEEE;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.social-link p{
+    font-size: 20px;
+}
+
+.social-link img{
+    padding: 10px;
+}
+
+/*footer styling*/
+
+.footer{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 150px;
+}
+
+.footer p{
+    padding: 2px;
+    font-size: 14px;
+}
+
+.footer h6{
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.footer a{
+    color: black;
+    text-decoration: underline;
+}
+
+.footer a:hover{
+    text-decoration: none;
+}
+
+/*KYC bottom details*/
+
+.kyc-details{
+    border: 1px hidden black;
+    box-shadow: 0px 0px 5px 0px;
+    background-color: white;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.kyc-details h2{
+    text-align: center;
+    color: red;
+    font-weight: 600;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.kyc-details .kyc-check{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.pan-input label{
+    color: red;
+    font-weight: 100;
+}
+
+.pan-input input{
+    height: 35px;
+    width: 250px;
+    border-style: none;
+    box-shadow: 0px 0px 5px 0px;
+    border-radius: 5px;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+.pan-input input::placeholder{
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.pan-input .verify-btn{
+    margin-left: 15px;
+    width: 120px;
+    height: 37px;
+    background-color: red;
+    color: white;
+    border-style: hidden;
+    box-shadow: 0px 0px 5px 0px;
+    border-radius: 20px;
+}
+
+.pan-input .verify-btn:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 5px 0px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.kyc-check .kyc-btn{
+    width: 180px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    border-style: hidden;
+    box-shadow: 0px 0px 5px 0px;
+    border-radius: 20px;
+    margin-left: 200px;
+}
+
+.kyc-check .kyc-btn:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 5px 0px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.kyc-check .update-btn{
+    width: 180px;
+    background-color: red;
+    color: white;
+    border-style: hidden;
+    box-shadow: 0px 0px 5px 0px;
+    border-radius: 20px;
+}
+
+.kyc-check .update-btn:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 5px 0px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* sign page */
+
+.sign-page{
+    font-family: 'Poppins', sans-serif;
+    background: repeating-linear-gradient(
+        135deg,
+        #f7f7f7,
+        #f7f7f7 10px,
+        #e0e0e0 10px,
+        #e0e0e0 20px 
+    );
+}
+
+/*header styling*/
+.header{
+    padding: 8px;
+    border: 1px black hidden;
+    box-shadow: 0px 0px 3px 0px black;
+    background-color:  #e0e0e0;
+}
+
+/*sign-container styling*/
+
+.sign-container{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    height: 630px;
+    width: 500px;
+    border-style: hidden;
+    box-shadow: 0px 0px 4px 0px black;
+    margin-left: 420px;
+    margin-top: 50px;
+    color: black;
+    background-color:whitesmoke;
+}
+
+/*sign-container (h2) styling*/
+
+.sign-container h2{
+    text-align: center;
+    margin-top: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+}
+
+.sign-container p{
+    text-align: center;
+    margin-top: 10px;
+}
+
+/*sign-container (p) styling*/
+
+.sign-container .input-box{
+    padding: 8px;
+    margin-top: 10px;
+}
+
+/*sign-container .input-box  styling*/
+
+.sign-container .input-box input{
+    display: block;
+    align-items: center;
+    margin-top: 12px;
+    width: 100%;
+    height: 36px;
+    border-radius: 4px;
+    border-style: hidden;
+    box-shadow: 0px 0px 4px 0px;
+    padding-left: 12px;
+    
+}
+
+.sign-container .input-box label{
+    font-weight: 550;
+}
+
+.sign-container .input-box input::placeholder{
+    font-size: 14px;
+}
+
+/*check-box styling*/
+
+.check-box{
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.check-box a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+/*submit-btn styling*/
+
+.submit-btn{
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    background: linear-gradient(135deg, #a0988f, #386281);
+    border-style: hidden;
+    box-shadow: 0px 0px 4px 0px ;
+}
+
+.submit-btn:hover{
+    cursor: pointer;
+    background: linear-gradient(135deg, #35678d,#a0988f);
+}
+
+/*login-here styling*/
+
+.login-here{
+    text-align: center;
+    
+}
+
+.login-here a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+/* Login page */
+
+
+
+.login-page{
+    min-height: 800px;
+    background: repeating-linear-gradient(
+        135deg,
+        #f7f7f7,
+        #f7f7f7 10px,
+        #e0e0e0 10px,
+        #e0e0e0 20px 
+    );
+    
+
+}
+
+.header{
+    border: 3px hidden black;
+    padding: 7px;
+    box-shadow: 0px 0px 3px 0px black;
+    background-color:  #e0e0e0;
+    
+}
+
+.login-container{
+    border: thin solid black;
+    border-style: hidden;
+    box-shadow: 0px 0px 5px 0px ;
+    background-color:  whitesmoke;
+    width: 1000px;
+    height: 580px;
+    margin-left: 180px;
+    margin-top: 80px;
+    padding-top: 30px;
+    padding-left: 40px;
+    
+}
+
+.login-container form{
+    display: flex;
+} 
+
+.login-container .left-side{
+    margin-left: 50px;
+}
+
+.login-container .left-side p{
+    padding-top: 40px;
+    padding-left: 20px;
+    font-size: 35px;
+}
+
+
+.login-container .right-side{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.login-container .right-side h2{
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.login-container .right-side p{
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.login-container .right-side .input-box{
+    margin-top: 25px;
+}
+
+.login-container .right-side .input-box input{
+    display: block;
+    margin-top: 10px;
+    width: 100%;
+    height: 35px;
+    border-style: hidden;
+    box-shadow: 0px 0px 3px 0px;
+    padding-left: 12px;
+} 
+
+.login-container .right-side .input-box input::placeholder{
+    font-variant: small-caps;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    
+}
+
+.login-container .right-side .input-box p{
+    font-size: 14px;
+    padding-top: 15px;
+}
+
+.login-btn{
+    margin-top: 25px;
+    width: 150px;
+    height: 40px;
+    background-color: #FA4032;
+    border-style: hidden;
+    color: white;
+    
+}
+
+.login-btn:hover{
+    color: white;
+    border-style: hidden;
+    box-shadow: 0px 0px 6px 0px black;
+    cursor: pointer;
+}
+
+.register-link h5{
+    padding-top: 20px;
+    font-weight: 300;
+    font-size: 17px;
+}
+
+.register-link a:hover{
+    cursor: pointer;
+    color: black;
+    text-decoration: underline;
+    transition: 0.2s ease;
+}
+
+.forget-password h5{
+    padding-top: 20px;
+    font-weight: 300;
+    font-size: 17px;
+}
+
+.forget-password a:hover{
+    cursor: pointer;
+    color: black;
+    text-decoration: underline;
+    transition: 0.2s ease;
+}
+
+
+
+
+
+
+
+
+/* forget password page */
+
+.forget-password-page{
+    justify-content: center;
+    min-height: 700px;
+    background: repeating-linear-gradient(
+        135deg,
+        #f7f7f7,
+        #f7f7f7 10px,
+        #e0e0e0 10px,
+        #e0e0e0 20px 
+  );
+    
+    
+}   
+
+.header{ 
+    padding: 10px;
+    border: 1px hidden black;
+    box-shadow: 0px 0px 4px 0px;
+    background-color:  #e0e0e0;
+}
+
+.forgetpassword-container{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    margin-top: 80px;
+    border: 1px solid black;
+    width: 800px;
+    height: 460px;
+    box-shadow: 0px 0px 4px 0px;
+    margin-left: 300px;
+}
+
+
+.forgetpassword-container .left-side{
+    margin-top: 50px;
+    padding-left: 30px;
+}
+
+.forgetpassword-container .left-side p{
+    font-size: 30px;
+    font-weight: 300;
+}
+
+
+
+.forgetpassword-container .right-side{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.forgetpassword-container .right-side h2{
+    font-variant: small-caps;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.forgetpassword-container  p{
+    padding-top: 10px;
+}
+
+.forgetpassword-container .input-box{
+    padding-top: 20px;
+}
+
+.forgetpassword-container .input-box label{
+    display: block;
+    font-size: 20px;
+}
+
+.forgetpassword-container .input-box input{
+    height: 35px;
+    width: 80%;
+    margin-top: 20px;
+    padding-left: 12px;
+    border-style: hidden;
+    box-shadow: 0px 0px 3px 0px;
+}
+
+.reset-btn{
+    height: 40px;
+    width: 130px;
+    margin-top: 30px;
+    text-align: center;
+    background-color: red;
+    color: white;
+    border-style: hidden;
+    box-shadow: 0px 0px 3px 0px;
+}
+
+.reset-btn:hover{
+    cursor: pointer;
+    background-color: goldenrod;
+    color: black;
+}
+
+.back-to-login{
+    padding-top: 20px;
+    font-size: 16px;
+}
+
+.back-to-login a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+
+
